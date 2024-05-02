@@ -229,6 +229,10 @@ img {
   .swiper-button-prev {
     display: none;
   }
+
+  .image-slider__image {
+    margin-bottom: 0;
+  }
 }
 
 /* ========== InteriorOverhaul ========== */
