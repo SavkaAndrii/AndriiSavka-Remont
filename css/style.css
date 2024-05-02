@@ -182,15 +182,15 @@ img {
 
 /* ========== slider ========== */
 
-.image-slider {
+.swiper {
   position: relative;
-  height: 400px;
 }
 
 .image-slider__image {
   width: 245px;
   height: 400px;
   max-width: 100%;
+  margin-bottom: 60px;
 }
 
 img {
@@ -201,14 +201,14 @@ img {
 
 .swiper-button-prev {
   position: absolute;
-  bottom: 20px; 
-  left: 20px;
+  top: 450px;
+  left: 10px; 
 }
 
 .swiper-button-next {
   position: absolute;
-  bottom: 10px; 
-  right: 935px; 
+  right: 930px;
+  top: 450px;
 }
 
 /* arrows */
@@ -216,6 +216,12 @@ img {
 .image-slider .swiper-button-next::after {
   color: #000;
   font-size: 20px;
+}
+
+@media (max-width: 1020px) {
+  .swiper-button-next {
+    right: 918px;
+  }
 }
 
 @media (max-width: 991px) {
