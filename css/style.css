@@ -35,7 +35,7 @@ a {
 }
 
 .padding-title {
-  padding-top: 100px;
+  padding-top: clamp(35px, 7vw, 100px);
 }
 
 .decor {
@@ -81,7 +81,7 @@ a {
   background-repeat: no-repeat;
   background-position: center center;
   height: 100vh;
-  margin-bottom: 50px;
+  margin-bottom: clamp(10px, 3.5vw, 50px);
   object-fit: cover;
 }
 
@@ -166,7 +166,7 @@ img {
   border: 1px solid #4C4848;
   max-width: 300px;
   width: 100%;
-  padding: 40px 0 30px;
+  padding: clamp(20px, 5vw, 40px) 0;
 }
 
 .offer__title {
