@@ -67,9 +67,22 @@ a {
   margin: 0 auto;
 }
 
+.header__phone-icon {
+  display: none;
+}
+
 @media(max-width: 768px) {
   .header__name-title {
     display: none;
+  }
+
+  .header__phone {
+    display: none;
+  }
+
+  .header__phone-icon {
+    display: block;
+    margin-right: 15px;
   }
 }
 
